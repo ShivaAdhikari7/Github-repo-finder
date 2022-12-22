@@ -1,0 +1,38 @@
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 1rem rgb(121, 80, 242, 0.5);
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.grid {
+  display: grid;
+  column-gap: 4.8rem;
+  row-gap: 6.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 78em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 61em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 47em) {
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+}
