@@ -11,7 +11,7 @@ You can click on the heading of the displayed repository and it will take you to
 ## How to install
 
 1. Clone the project to your local machine
-   `git clone https://github.com/dikxak/github-repo-finder`
+  
 
 2. Install all the dependencies
    `npm install`
